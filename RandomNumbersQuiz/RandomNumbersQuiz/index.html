@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Random Numbers</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#numbertextbox").keyup(function(){
+                var numberInput = $("#numbertextbox").val();
+                if (numberInput.length == 0){
+                    $("#guide").html("");
+                }
+
+                else{
+                    $.ajax({
+                        type: "POST",
+                        url: "RandomNumbers.asmx/getNumbersThatStartsWith",
+                        data: "{number:" + numberInput + "}",
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function(msg) {
+                            var data = eval(msg);
+                            jQuery.each(data, function(rec) {
+
+                                var array = JSON.parse(this);
+                                $("#guide").html("");
+                                array.forEach(function(element) {
+                                  $("#guide").html($("#guide").html() + "<br>" + element);
+                                });
+
+                                if (this == "[]"){
+                                    $("#guide").html(" ");
+                                }
+                            });
+                        },
+                        error: function(msg) {
+
+                        }
+                    });
+                }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <form action="RandomNumbers.asmx/getNumbersThatStartsWith" method="post">
+            Enter Number:<br>
+            <input id="numbertextbox" type="number" name="number" required><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p id="guide"></p>
+    </body>
+</html>

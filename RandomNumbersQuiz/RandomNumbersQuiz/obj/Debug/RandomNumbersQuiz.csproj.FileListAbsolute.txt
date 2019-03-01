@@ -1,0 +1,15 @@
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/RandomNumbersQuiz.dll
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/RandomNumbersQuiz.pdb
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/Newtonsoft.Json.dll
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/System.Net.Http.Formatting.dll
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/System.Web.Http.dll
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/System.Web.Http.WebHost.dll
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/Newtonsoft.Json.xml
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/System.Net.Http.Formatting.xml
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/System.Web.Http.xml
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/bin/System.Web.Http.WebHost.xml
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/obj/Debug/RandomNumbersQuiz.csprojAssemblyReference.cache
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/obj/Debug/RandomNumbersQuiz.csproj.CoreCompileInputs.cache
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/obj/Debug/RandomNumbersQuiz.csproj.CopyComplete
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/obj/Debug/RandomNumbersQuiz.dll
+/Users/ianfrancisroldan/Projects/RandomNumbersQuiz/RandomNumbersQuiz/obj/Debug/RandomNumbersQuiz.pdb

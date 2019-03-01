@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersQuiz", "RandomNumbersQuiz\RandomNumbersQuiz.csproj", "{C7650DF9-5889-417B-B195-B75AE86F80D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbersQuiz.Tests", "RandomNumbersQuiz.Tests\RandomNumbersQuiz.Tests.csproj", "{668B446B-013F-42E2-A37A-179723A8121F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7650DF9-5889-417B-B195-B75AE86F80D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7650DF9-5889-417B-B195-B75AE86F80D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7650DF9-5889-417B-B195-B75AE86F80D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7650DF9-5889-417B-B195-B75AE86F80D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668B446B-013F-42E2-A37A-179723A8121F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668B446B-013F-42E2-A37A-179723A8121F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668B446B-013F-42E2-A37A-179723A8121F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668B446B-013F-42E2-A37A-179723A8121F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
